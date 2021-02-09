@@ -10,7 +10,7 @@
     </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="This Page Just For Example How To Create A Tabbed Page"
+            <Label Text="This Page Just For Example 'How To Create A Tabbed Page'"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
