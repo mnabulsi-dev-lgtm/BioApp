@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BioApp.RegesterationPage"
+             Title="Finance Page">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Picker x:Name="semsterPicker" Title="أختر الفصل الدراسي" HorizontalOptions="FillAndExpand"/>
+            <Picker x:Name="majorsPicker" Title="أختر تخصصك"  HorizontalOptions="FillAndExpand"/>
+            <Entry x:Name="numberOFHours" Placeholder="أدخل عدد الساعات المراد تسجيلها" HorizontalOptions="FillAndExpand" Keyboard="Numeric" />
+            <Entry x:Name="discount" Placeholder="كم مقدار الخصم ؟"                 HorizontalOptions="FillAndExpand" Keyboard="Numeric" />
+            <Button x:Name="calculate" Text="أظهر النتيجه" HorizontalOptions="FillAndExpand" BackgroundColor="DodgerBlue" TextColor="Wheat" CornerRadius="5" Clicked="calculate_Clicked"/>
+            <Label x:Name="result" HorizontalOptions="CenterAndExpand" TextColor="DarkSeaGreen"  FontAttributes="Bold" FontSize="Large" Margin="0,50,0,0" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

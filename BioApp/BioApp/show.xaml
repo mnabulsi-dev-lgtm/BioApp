@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BioApp.show">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="xamarin"/>
+                <BoxView x:Name="box1" CornerRadius="360" WidthRequest="25" HeightRequest="25"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="data structure"/>
+                <BoxView x:Name="box2" CornerRadius="360" WidthRequest="25" HeightRequest="25"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
